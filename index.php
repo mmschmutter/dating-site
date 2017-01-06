@@ -45,17 +45,18 @@
 		background-attachment: fixed;
 		color: #fff;
 		font-weight: bold;
+		font-size: 15pt;
 	}	
 	.container {
 		margin-top: 25px;
+		margin-bottom: 25px;
 		color: #fff;
 	}
-	h1 {
-		font-size: 25px;
+	.banner {
+		font-size: 10pt;
 	}
-	.banner > img {
-		margin-right: 100px;
-		background-color: #000;
+	h1 {
+		font-size: 30px;
 	}
 	.buttons {
 		margin: auto;

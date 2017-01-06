@@ -44,8 +44,7 @@ foreach($profiles as $profile){
 		<div class="panel panel-default">	
 			<div class="panel-heading"> <?= $match[0] ?> </div>
 			<div class="panel-body">
-				<img src="<?= $match[7] ?>" alt="user image" class="img-circle" />
-				<h3>Profile:</h3>
+				<img src="<?= $match[7] ?>" alt="user image" class="img-circle" /><br/>
 				<ul>
 					<li><strong>Gender:</strong> <?= $match[1] ?></li>
 					<li><strong>Age:</strong> <?= $match[2] ?></li>
@@ -58,7 +57,7 @@ foreach($profiles as $profile){
 </div>
 <?php } ?>
 
-<div class="map"> <hr/>
+<div class="map"><hr/>
 	<h3>Since all your matches love <?= $os ?>, here are some places you might want to take them:</h3>
 
 	<?php if($os === "Mac OS X"){ ?>
