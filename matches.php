@@ -10,9 +10,7 @@
 		</div><br/>
 
 		<span class="input-group-btn">
-			<button class="btn btn-default">
-				<input type="submit" value="View My Matches" formacation="matches-submit.php">
-			</button>
+			<input class="btn btn-default" type="submit" value="View My Matches" formaction="matches-submit.php">
 		</span>
 	</fieldset>
 </form><hr/>

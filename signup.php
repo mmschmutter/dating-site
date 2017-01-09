@@ -9,11 +9,11 @@
 			<input type="text" name="name" class="form-control" placeholder="Full Name">
 		</div><br/>
 
-		<div class = "btn-group" data-toggle ="buttons">
+		<div class="btn-group" data-toggle="buttons">
 			<label class="btn btn-default">
 				<input type="radio" name ="gender" value="M" id="male"> Male
 			</label>
-			<label class = "btn btn-default">
+			<label class="btn btn-default">
 				<input type="radio" name="gender" value="F" id="female"> Female
 			</label>
 		</div><br/><br/>
@@ -27,20 +27,20 @@
 			<span class="input-group-addon">Personality Type</span>
 			<input type="text" class="form-control" placeholder="Jung Typology" name="personality" maxlength="4">
 			<span class="input-group-btn">
-				<button class="btn btn-default"><a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">Don't know your type?</a></button>
+				<span class="btn btn-default"><a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">Don't know your type?</a></span>
 			</span>
 		</div><br/>
 
-		<div class = "btn-group" data-toggle ="buttons">
+		<div class="btn-group" data-toggle="buttons">
 			<label class="btn btn-default">
 				<input type="radio" name ="os" value="Windows" id="Windows"> Windows
 			</label>
 
-			<label class = "btn btn-default">
-				<input type="radio" name="os" value="Mac OS X" id="Mac OS X"> Mac OS X
+			<label class="btn btn-default">
+				<input type="radio" name="os" value="Mac OS X" id="Mac_OS_X"> Mac OS X
 			</label>
 
-			<label class = "btn btn-default">
+			<label class="btn btn-default">
 				<input type="radio" name="os" value="Linux" id="Linux"> Linux
 			</label>
 		</div><br/><br/>
@@ -58,9 +58,7 @@
 		</div><br/><br/>
 
 		<span class="input-group-btn">
-			<button class="btn btn-default">
-				<input type="submit" value="Sign Up" formaction="signup-submit.php">
-			</button>
+			<input class="btn btn-default" type="submit" value="Sign Up" formaction="signup-submit.php">
 		</span>
 	</fieldset>
 </form><hr/>
