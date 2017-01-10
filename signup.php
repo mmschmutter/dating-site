@@ -46,9 +46,9 @@
 		</div><br/><br/>
 
 		<div class="input-group input-group-sm col-xs-4">
-			<span class="input-group-addon">Seeking Age:</span>
+			<span class="input-group-addon">Seeking Age</span>
 			<input type="text" class="form-control" placeholder="min" name="min_age" maxlength="2">
-			<span class="input-group-addon">To</span>
+			<span class="input-group-addon">to</span>
 			<input type="text" class="form-control" placeholder="max" name="max_age" maxlength="2">
 		</div><br/>
 
