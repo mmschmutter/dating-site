@@ -1,5 +1,6 @@
 <?php
 include("top.html");
+
 $name = $_GET["name"];
 $user = null;
 $db = new PDO("mysql:host=localhost;dbname=singles", "root", "");
@@ -35,10 +36,10 @@ foreach($profiles as $profile){
 	}
 }
 ?>
+
 <h2>Matches for <?= $name ?></h2><hr/>
 
 <?php foreach($matches as $match){ ?>
-
 <div class="row">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="panel panel-default">	
@@ -61,11 +62,11 @@ foreach($profiles as $profile){
 	<h3>Since all your matches love <?= $os ?>, here are some places you might want to take them:</h3>
 
 	<?php if($os === "Mac OS X"){ ?>
-	<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Apple%20Stores&key=AIzaSyBvzxDSgQwpg4ThNqNUWBCoP2pRK_IykWQ" allowfullscreen></iframe>
+	<iframe width="600" height="450" src="https://www.google.com/maps/embed/v1/search?q=Apple%20Stores&key=AIzaSyBvzxDSgQwpg4ThNqNUWBCoP2pRK_IykWQ" allowfullscreen></iframe>
 	<?php } elseif($os === "Windows"){ ?>
-	<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Microsoft%20Stores&key=AIzaSyBvzxDSgQwpg4ThNqNUWBCoP2pRK_IykWQ" allowfullscreen></iframe>
+	<iframe width="600" height="450" src="https://www.google.com/maps/embed/v1/search?q=Microsoft%20Stores&key=AIzaSyBvzxDSgQwpg4ThNqNUWBCoP2pRK_IykWQ" allowfullscreen></iframe>
 	<?php } elseif($os === "Linux"){ ?>
-	<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=PC%20Richard%20%26%20Son&key=AIzaSyBvzxDSgQwpg4ThNqNUWBCoP2pRK_IykWQ" allowfullscreen></iframe>
+	<iframe width="600" height="450" src="https://www.google.com/maps/embed/v1/search?q=PC%20Richard%20%26%20Son&key=AIzaSyBvzxDSgQwpg4ThNqNUWBCoP2pRK_IykWQ" allowfullscreen></iframe>
 	<?php
 } ?>
 </div><hr/>
